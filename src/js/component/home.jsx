@@ -1,12 +1,17 @@
 import React from "react";
 
-//create your first component
-const Home = () => {
-	return (
-		<div className="container-fluid">
-			Hola
-		</div>
-	);
-};
+// Importa los componentes Footer y Header
+import Footer from "./Footer.jsx";
+import Header  from "Header.jsx";
 
-export default Home;
+
+function home() {
+  return (
+    <>
+      <Header />
+      <Footer />
+    </>
+  );
+}
+
+export default home;
