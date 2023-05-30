@@ -16,7 +16,7 @@ const Card = (props) => {
     );
 };
 
-Card.PropTypes = {
+Card.propTypes = {
     cardLink: PropTypes.string,
     cardTitle: PropTypes.string,
     cardDescription: PropTypes.string,
