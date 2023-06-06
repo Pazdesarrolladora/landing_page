@@ -12,14 +12,18 @@ const portada = {
   buttonLabel: "Call to Action!",
 };
 
-function home() {
+function Home() {
   return (
     <>
       <Header />
-      <Body title={portada.title} description={portada.description} buttonLabel={portada.buttonLabel} /> 
+      <Body
+        title={portada.title}
+        description={portada.description}
+        buttonLabel={portada.buttonLabel}
+      />
       <Footer />
     </>
   );
 }
 
-export default home;
+export default Home;
