@@ -1,6 +1,6 @@
 import React from "react";
-import Card from "./Card.jsx";
 import PropTypes from "prop-types";
+import Card from "./card.jsx";
 
 const contentCard = [
   {
@@ -37,7 +37,7 @@ const Body = (props) => {
   return (
     <>
       <div className="container-fluid ">
-        <div className=" tittle jumbotron p-5">      
+        <div className=" tittle jumbotron p-5">
           <h1 className="display-4">{props.title}</h1>
           <p>{props.description}</p>
           <p className="lead">
