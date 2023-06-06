@@ -1,9 +1,9 @@
 import React from "react";
 
 // Importa los componentes Footer y Header
-import Footer from "./Footer.jsx";
-import Header from "./Header.jsx";
-import Body from "./Body.jsx";
+import Footer from "./footer.jsx";
+import Header from "./header.jsx";
+import Body from "./body.jsx";
 
 const portada = {
   title: "A Warm Welcome!",
